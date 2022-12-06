@@ -1,0 +1,277 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#firstPage
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(images/house.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#firstPageSale
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(images/houseSale.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navBar
+{
+    z-index: 1;
+    width: 100%;
+    font-size: 2vw;
+    background-color: rgba(28, 28, 28, 0.3);
+    border-bottom: 5px ridge white;
+    font-family: 'PineWood', sans-serif;
+    background-image: url(images/house.jpg);
+    background-size: cover;
+}
+
+ul
+{
+    list-style-type: none;
+    float: right;
+    width: 40%;
+    margin-top: 30px !important;
+}
+li
+{
+    /* float: right; */
+    padding: 2%;
+    display: inline;
+}
+a
+{
+    text-decoration: none !important;
+    color: white !important;
+    transition: 0.5s ease-in-out;
+    font-size: large;
+    
+}
+ul li a:hover
+{
+    color: #30caa0 !important;
+}
+
+.navBar img
+{
+    width: 150px;
+    padding: 2%;
+}
+.landingForm
+{
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(28, 28, 28, 0.7);
+    border: 2px ridge green;
+    padding: 2% 5%;
+    border-radius: 25px;
+}
+form span
+{
+    display: block;
+    transform: translateX(25%);
+}
+.landingForm input, .landingForm select
+{
+    width: 30%;
+    margin: 1%;
+    font-size: 15px;
+    text-align: center;
+    padding: 1%;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid white;
+    color: black;
+    outline: none;
+}
+.landingForm #search
+{
+    width: 60%;
+    margin: 2%;
+    font-size: 15px;
+    text-align: center;
+    padding: 1%;
+    border-radius: 25px;
+    background-color: #30caa0;
+    border: 2px solid white;
+    color: black;
+    outline: none;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+}
+input:hover, select:hover
+{
+    border: 2px solid green;
+}
+.landingForm span
+{
+    color: grey;
+}
+.landingForm h1
+{
+    padding: 2%;
+}
+#carouselExampleCaptions
+{
+    width: 40%;
+    position: absolute;
+    right: 5%;
+}
+
+
+
+
+@media (max-width: 800px) {
+    .landingForm input, .landingForm select
+{
+    width: 80%;
+    margin: 1%;
+}
+.landingForm #search
+{
+    width: 80%;
+}
+
+}
+
+
+.prop
+{
+    width: 350px;
+    height: 400px;
+    background-color: aliceblue;
+    position: relative;
+    font-size: large;
+    padding: 10px;
+    color: black;
+    display: inline-block;
+    margin: 0.5%;
+    overflow: hidden;
+    border-radius: 25px;
+    /* border: 2px solid black; */
+    transition: 0.5s ease-in-out;
+}
+.prop img
+{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    border-radius: 25px;
+}
+.prop .city
+{
+    position: absolute;
+    bottom: 60px;
+}
+.prop .price
+{
+    position: absolute;
+    bottom: 60px;
+    right: 10px;
+}
+.prop .aminities
+{
+    position: absolute;
+    bottom: 30px;
+}
+.prop .keywords
+{
+    position: absolute;
+    bottom: 10px;
+}
+#visit
+{
+    padding: 2% 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: aqua;
+    z-index: 1;
+    border-radius: 25px;
+    border: 3px solid black;
+    transform: translate(-50%, -50%);
+    display: none;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.prop:hover img
+{
+    filter: brightness(0.5);
+}
+.prop:hover{
+    color: white;
+    background-color: salmon;
+}
+.prop:hover #visit
+{
+    display: block;
+    color: black;
+}
+#visit:hover
+{
+    background-color: aquamarine;
+}
+.prop:hover .bi
+{
+    color: green;
+}
+.prop:hover .fa
+{
+    color: green;
+}
+.bi, .fa
+{
+    color: black;
+}
+
+
+
+#secondPage
+{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+#secondPage h1
+{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding: 3%;
+    background-color: rgba(32, 134, 107, 0.8);
+}
+
+.ourInitiative
+{
+    width: 43%;
+    position: absolute;
+    left: 5%;
+}
+.ourInitiative img
+{
+    width: 100%;
+}
+
+
+
+
+
+
